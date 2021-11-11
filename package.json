@@ -1,0 +1,32 @@
+{
+  "name": "orgel",
+  "version": "1.0.0",
+  "description": "orgel site",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inthefielddd/Orgel.git"
+  },
+  "scripts": {
+    "dev": "nodemon --exec babel-node src/init.js"
+  },
+  "author": "hyeon ji choi",
+  "bugs": {
+    "url": "https://github.com/inthefielddd/Orgel/issues"
+  },
+  "homepage": "https://github.com/inthefielddd/Orgel#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "mongoose": "^6.0.12",
+    "morgan": "^1.10.0",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/node": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "nodemon": "^2.0.13"
+  }
+}
